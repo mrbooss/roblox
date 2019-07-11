@@ -1,0 +1,1036 @@
+-- Objects
+
+local J129I43NDSFDKNFJ = Instance.new("ScreenGui")
+local LoginFrame = Instance.new("Frame")
+local BoxLabel = Instance.new("Frame")
+local idk = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local LoginBut = Instance.new("TextButton")
+local Frame = Instance.new("Frame")
+local idk_2 = Instance.new("Frame")
+local Frame_2 = Instance.new("Frame")
+local Frame_3 = Instance.new("Frame")
+local Frame_4 = Instance.new("Frame")
+local BoxLabel_2 = Instance.new("Frame")
+local Frame_5 = Instance.new("Frame")
+local TextLabel_2 = Instance.new("TextLabel")
+local Key = Instance.new("TextBox")
+local TextLabel_3 = Instance.new("TextLabel")
+local TeleportFrame = Instance.new("Frame")
+local BoxLabel_3 = Instance.new("Frame")
+local idk_3 = Instance.new("Frame")
+local TextLabel_4 = Instance.new("TextLabel")
+local Frame_6 = Instance.new("Frame")
+local idk_4 = Instance.new("Frame")
+local Frame_7 = Instance.new("Frame")
+local Frame_8 = Instance.new("Frame")
+local Frame_9 = Instance.new("Frame")
+local BoxLabel_4 = Instance.new("Frame")
+local Frame_10 = Instance.new("Frame")
+local TextLabel_5 = Instance.new("TextLabel")
+local Staff_Room = Instance.new("TextButton")
+local Bar = Instance.new("TextButton")
+local Merch_Store = Instance.new("TextButton")
+local TextLabel_6 = Instance.new("TextLabel")
+local Arcade = Instance.new("TextButton")
+local WaterSlides = Instance.new("TextButton")
+local Gym = Instance.new("TextButton")
+local exitbutton_teleport = Instance.new("TextButton")
+local FunctionsFrame = Instance.new("Frame")
+local BoxLabel_5 = Instance.new("Frame")
+local idk_5 = Instance.new("Frame")
+local TextLabel_7 = Instance.new("TextLabel")
+local Frame_11 = Instance.new("Frame")
+local idk_6 = Instance.new("Frame")
+local Frame_12 = Instance.new("Frame")
+local Frame_13 = Instance.new("Frame")
+local Frame_14 = Instance.new("Frame")
+local BoxLabel_6 = Instance.new("Frame")
+local Frame_15 = Instance.new("Frame")
+local TextLabel_8 = Instance.new("TextLabel")
+local BTools = Instance.new("TextButton")
+local Noclip = Instance.new("TextButton")
+local exitbutton_functions = Instance.new("TextButton")
+local Give_Staff_Keycard = Instance.new("TextButton")
+local TextLabel_9 = Instance.new("TextLabel")
+local SetWalkSpeed = Instance.new("TextBox")
+local SetJumpPower = Instance.new("TextBox")
+local Give_Room = Instance.new("TextBox")
+local OpionFrame = Instance.new("Frame")
+local BoxLabel_7 = Instance.new("Frame")
+local idk_7 = Instance.new("Frame")
+local TextLabel_10 = Instance.new("TextLabel")
+local Frame_16 = Instance.new("Frame")
+local idk_8 = Instance.new("Frame")
+local Frame_17 = Instance.new("Frame")
+local Frame_18 = Instance.new("Frame")
+local Frame_19 = Instance.new("Frame")
+local BoxLabel_8 = Instance.new("Frame")
+local Frame_20 = Instance.new("Frame")
+local TextLabel_11 = Instance.new("TextLabel")
+local teleport = Instance.new("TextButton")
+local functions = Instance.new("TextButton")
+local TextLabel_12 = Instance.new("TextLabel")
+
+-- Properties
+
+J129I43NDSFDKNFJ.Name = "J129I43NDSFDKNFJ"
+J129I43NDSFDKNFJ.Parent = game.CoreGui
+
+LoginFrame.Name = "LoginFrame"
+LoginFrame.Parent = J129I43NDSFDKNFJ
+LoginFrame.Active = true
+LoginFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+LoginFrame.BorderSizePixel = 0
+LoginFrame.Position = UDim2.new(0.508210182, 0, 0.0536193177, 0)
+LoginFrame.Selectable = true
+LoginFrame.Size = UDim2.new(0, 399, 0, 378)
+
+BoxLabel.Name = "BoxLabel"
+BoxLabel.Parent = LoginFrame
+BoxLabel.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel.BorderSizePixel = 0
+BoxLabel.Position = UDim2.new(0.548829019, 0, -0.076102525, 0)
+BoxLabel.Size = UDim2.new(0, 180, 0, 35)
+
+idk.Name = "idk"
+idk.Parent = BoxLabel
+idk.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk.BorderSizePixel = 0
+idk.Position = UDim2.new(-0.141777888, 1, 0.280714184, 1)
+idk.Rotation = -50
+idk.Size = UDim2.new(0, 42, 0, 23)
+
+TextLabel.Parent = LoginFrame
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.BorderSizePixel = 0
+TextLabel.Position = UDim2.new(0.531285167, 0, -0.0679035485, 0)
+TextLabel.Size = UDim2.new(0, 180, 0, 30)
+TextLabel.Font = Enum.Font.Highway
+TextLabel.Text = "Bloxton Hotels"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14
+TextLabel.TextWrapped = true
+
+LoginBut.Name = "LoginBut"
+LoginBut.Parent = LoginFrame
+LoginBut.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+LoginBut.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+LoginBut.Position = UDim2.new(0.287572414, 0, 0.697504878, 0)
+LoginBut.Size = UDim2.new(0, 200, 0, 50)
+LoginBut.Font = Enum.Font.SourceSans
+LoginBut.Text = "Login"
+LoginBut.TextColor3 = Color3.new(1, 1, 1)
+LoginBut.TextScaled = true
+LoginBut.TextSize = 14
+LoginBut.TextWrapped = true
+
+Frame.Parent = LoginFrame
+Frame.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame.BorderSizePixel = 0
+Frame.Position = UDim2.new(0, 0, 0.882690132, 0)
+Frame.Size = UDim2.new(0, 399, 0, 19)
+
+idk_2.Name = "idk"
+idk_2.Parent = Frame
+idk_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_2.BorderSizePixel = 0
+idk_2.Position = UDim2.new(0.401961654, 1, 1.83288741, 1)
+idk_2.Rotation = -50
+idk_2.Size = UDim2.new(0, 51, 0, 26)
+
+Frame_2.Parent = LoginFrame
+Frame_2.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_2.BorderSizePixel = 0
+Frame_2.Position = UDim2.new(-4.31376284e-05, 0, 0.954118669, 0)
+Frame_2.Size = UDim2.new(0, 399, 0, 9)
+
+Frame_3.Parent = LoginFrame
+Frame_3.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_3.BorderSizePixel = 0
+Frame_3.Position = UDim2.new(-4.31376284e-05, 0, 0.0387747623, 0)
+Frame_3.Size = UDim2.new(0, 399, 0, 20)
+
+Frame_4.Parent = LoginFrame
+Frame_4.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_4.BorderSizePixel = 0
+Frame_4.Position = UDim2.new(0, 0, 0.120785348, 0)
+Frame_4.Size = UDim2.new(0, 399, 0, 12)
+
+BoxLabel_2.Name = "BoxLabel"
+BoxLabel_2.Parent = LoginFrame
+BoxLabel_2.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_2.BorderSizePixel = 0
+BoxLabel_2.Position = UDim2.new(-4.31537628e-05, 0, 0.997971594, 0)
+BoxLabel_2.Size = UDim2.new(0, 180, 0, 35)
+
+Frame_5.Parent = BoxLabel_2
+Frame_5.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_5.BorderSizePixel = 0
+Frame_5.Position = UDim2.new(0.109909907, 0, -10.3593264, 0)
+Frame_5.Size = UDim2.new(0, 24, 0, 398)
+
+TextLabel_2.Parent = LoginFrame
+TextLabel_2.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_2.BackgroundTransparency = 1
+TextLabel_2.BorderSizePixel = 0
+TextLabel_2.Position = UDim2.new(0.107726283, 0, 0.995588481, 0)
+TextLabel_2.Size = UDim2.new(0, 141, 0, 30)
+TextLabel_2.Font = Enum.Font.Highway
+TextLabel_2.Text = "Verison 1.0"
+TextLabel_2.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_2.TextScaled = true
+TextLabel_2.TextSize = 14
+TextLabel_2.TextWrapped = true
+
+Key.Name = "Key"
+Key.Parent = LoginFrame
+Key.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Key.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Key.Position = UDim2.new(0.184815526, 0, 0.286593795, 0)
+Key.Size = UDim2.new(0, 282, 0, 41)
+Key.Font = Enum.Font.SourceSans
+Key.PlaceholderColor3 = Color3.new(0.698039, 0.698039, 0.698039)
+Key.PlaceholderText = "Key"
+Key.Text = ""
+Key.TextColor3 = Color3.new(1, 1, 1)
+Key.TextScaled = true
+Key.TextSize = 14
+Key.TextWrapped = true
+Key.TextXAlignment = Enum.TextXAlignment.Left
+
+TextLabel_3.Parent = LoginFrame
+TextLabel_3.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_3.BackgroundTransparency = 1
+TextLabel_3.BorderSizePixel = 0
+TextLabel_3.Position = UDim2.new(0, 0, -0.00176598283, 0)
+TextLabel_3.Size = UDim2.new(0, 345, 0, 15)
+TextLabel_3.Font = Enum.Font.Highway
+TextLabel_3.Text = "Scripting by King Singularity @ V3rm, UI By Boom#7676"
+TextLabel_3.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_3.TextSize = 14
+TextLabel_3.TextWrapped = true
+
+TeleportFrame.Name = "TeleportFrame"
+TeleportFrame.Parent = J129I43NDSFDKNFJ
+TeleportFrame.Active = true
+TeleportFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+TeleportFrame.BorderSizePixel = 0
+TeleportFrame.Position = UDim2.new(0.0681444407, 0, 0.0388740003, 0)
+TeleportFrame.Selectable = true
+TeleportFrame.Size = UDim2.new(0, 494, 0, 378)
+
+BoxLabel_3.Name = "BoxLabel"
+BoxLabel_3.Parent = TeleportFrame
+BoxLabel_3.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_3.BorderSizePixel = 0
+BoxLabel_3.Position = UDim2.new(0.548829019, 0, -0.076102525, 0)
+BoxLabel_3.Size = UDim2.new(0, 223, 0, 35)
+
+idk_3.Name = "idk"
+idk_3.Parent = BoxLabel_3
+idk_3.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_3.BorderSizePixel = 0
+idk_3.Position = UDim2.new(-0.141777828, 1, 0.366428494, 1)
+idk_3.Rotation = -50
+idk_3.Size = UDim2.new(0, 47, 0, 20)
+
+TextLabel_4.Parent = TeleportFrame
+TextLabel_4.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_4.BackgroundTransparency = 1
+TextLabel_4.BorderSizePixel = 0
+TextLabel_4.Position = UDim2.new(0.531285167, 0, -0.0679035485, 0)
+TextLabel_4.Size = UDim2.new(0, 180, 0, 30)
+TextLabel_4.Font = Enum.Font.Highway
+TextLabel_4.Text = "Bloxton Hotels"
+TextLabel_4.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14
+TextLabel_4.TextWrapped = true
+
+Frame_6.Parent = TeleportFrame
+Frame_6.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_6.BorderSizePixel = 0
+Frame_6.Position = UDim2.new(0, 0, 0.882690132, 0)
+Frame_6.Size = UDim2.new(0, 494, 0, 19)
+
+idk_4.Name = "idk"
+idk_4.Parent = Frame_6
+idk_4.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_4.BorderSizePixel = 0
+idk_4.Position = UDim2.new(0.401961595, 1, 1.83288574, 1)
+idk_4.Rotation = -50
+idk_4.Size = UDim2.new(0, 51, 0, 29)
+
+Frame_7.Parent = TeleportFrame
+Frame_7.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_7.BorderSizePixel = 0
+Frame_7.Position = UDim2.new(-4.31199805e-05, 0, 0.954118669, 0)
+Frame_7.Size = UDim2.new(0, 482, 0, 9)
+
+Frame_8.Parent = TeleportFrame
+Frame_8.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_8.BorderSizePixel = 0
+Frame_8.Position = UDim2.new(-4.31199805e-05, 0, 0.0387747623, 0)
+Frame_8.Size = UDim2.new(0, 494, 0, 20)
+
+Frame_9.Parent = TeleportFrame
+Frame_9.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_9.BorderSizePixel = 0
+Frame_9.Position = UDim2.new(0, 0, 0.120785348, 0)
+Frame_9.Size = UDim2.new(0, 494, 0, 12)
+
+BoxLabel_4.Name = "BoxLabel"
+BoxLabel_4.Parent = TeleportFrame
+BoxLabel_4.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_4.BorderSizePixel = 0
+BoxLabel_4.Position = UDim2.new(-4.31199805e-05, 0, 0.997971654, 0)
+BoxLabel_4.Size = UDim2.new(0, 219, 0, 35)
+
+Frame_10.Parent = BoxLabel_4
+Frame_10.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_10.BorderSizePixel = 0
+Frame_10.Position = UDim2.new(0.109909907, 0, -10.3593264, 0)
+Frame_10.Size = UDim2.new(0, 24, 0, 398)
+
+TextLabel_5.Parent = TeleportFrame
+TextLabel_5.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_5.BackgroundTransparency = 1
+TextLabel_5.BorderSizePixel = 0
+TextLabel_5.Position = UDim2.new(0.107726313, 0, 0.995588541, 0)
+TextLabel_5.Size = UDim2.new(0, 166, 0, 30)
+TextLabel_5.Font = Enum.Font.Highway
+TextLabel_5.Text = "Verison 1.0"
+TextLabel_5.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_5.TextScaled = true
+TextLabel_5.TextSize = 14
+TextLabel_5.TextWrapped = true
+
+Staff_Room.Name = "Staff_Room"
+Staff_Room.Parent = TeleportFrame
+Staff_Room.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Staff_Room.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Staff_Room.Position = UDim2.new(0.125629097, 0, 0.223959878, 0)
+Staff_Room.Size = UDim2.new(0, 200, 0, 50)
+Staff_Room.Font = Enum.Font.SourceSans
+Staff_Room.Text = "Staff Room"
+Staff_Room.TextColor3 = Color3.new(1, 1, 1)
+Staff_Room.TextSize = 30
+Staff_Room.TextWrapped = true
+
+Bar.Name = "Bar"
+Bar.Parent = TeleportFrame
+Bar.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Bar.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Bar.Position = UDim2.new(0.570973217, 0, 0.223959878, 0)
+Bar.Size = UDim2.new(0, 200, 0, 50)
+Bar.Font = Enum.Font.SourceSans
+Bar.Text = "Bar"
+Bar.TextColor3 = Color3.new(1, 1, 1)
+Bar.TextSize = 30
+Bar.TextWrapped = true
+
+Merch_Store.Name = "Merch_Store"
+Merch_Store.Parent = TeleportFrame
+Merch_Store.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Merch_Store.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Merch_Store.Position = UDim2.new(0.570973217, 0, 0.432954609, 0)
+Merch_Store.Size = UDim2.new(0, 200, 0, 50)
+Merch_Store.Font = Enum.Font.SourceSans
+Merch_Store.Text = "Merch Store"
+Merch_Store.TextColor3 = Color3.new(1, 1, 1)
+Merch_Store.TextSize = 30
+Merch_Store.TextWrapped = true
+
+TextLabel_6.Parent = TeleportFrame
+TextLabel_6.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_6.BackgroundTransparency = 1
+TextLabel_6.BorderSizePixel = 0
+TextLabel_6.Position = UDim2.new(0, 0, -0.00176598283, 0)
+TextLabel_6.Size = UDim2.new(0, 345, 0, 15)
+TextLabel_6.Font = Enum.Font.Highway
+TextLabel_6.Text = "Scripting by King Singularity @ V3rm, UI By leonrock15978"
+TextLabel_6.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_6.TextSize = 14
+TextLabel_6.TextWrapped = true
+
+Arcade.Name = "Arcade"
+Arcade.Parent = TeleportFrame
+Arcade.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Arcade.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Arcade.Position = UDim2.new(0.125629127, 0, 0.43295455, 0)
+Arcade.Size = UDim2.new(0, 200, 0, 50)
+Arcade.Font = Enum.Font.SourceSans
+Arcade.Text = "Arcade"
+Arcade.TextColor3 = Color3.new(1, 1, 1)
+Arcade.TextSize = 30
+Arcade.TextWrapped = true
+
+WaterSlides.Name = "WaterSlides"
+WaterSlides.Parent = TeleportFrame
+WaterSlides.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+WaterSlides.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+WaterSlides.Position = UDim2.new(0.125629127, 0, 0.671049833, 0)
+WaterSlides.Size = UDim2.new(0, 200, 0, 50)
+WaterSlides.Font = Enum.Font.SourceSans
+WaterSlides.Text = "Water Slides"
+WaterSlides.TextColor3 = Color3.new(1, 1, 1)
+WaterSlides.TextSize = 30
+WaterSlides.TextWrapped = true
+
+Gym.Name = "Gym"
+Gym.Parent = TeleportFrame
+Gym.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Gym.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Gym.Position = UDim2.new(0.570973277, 0, 0.671049833, 0)
+Gym.Size = UDim2.new(0, 200, 0, 50)
+Gym.Font = Enum.Font.SourceSans
+Gym.Text = "Gym"
+Gym.TextColor3 = Color3.new(1, 1, 1)
+Gym.TextSize = 30
+Gym.TextWrapped = true
+
+exitbutton_teleport.Name = "exitbutton_teleport"
+exitbutton_teleport.Parent = TeleportFrame
+exitbutton_teleport.BackgroundColor3 = Color3.new(1, 1, 1)
+exitbutton_teleport.BackgroundTransparency = 1
+exitbutton_teleport.BorderSizePixel = 0
+exitbutton_teleport.Position = UDim2.new(0.921946764, 0, -0.0679035857, 0)
+exitbutton_teleport.Size = UDim2.new(0, 38, 0, 30)
+exitbutton_teleport.Font = Enum.Font.SourceSans
+exitbutton_teleport.Text = "X"
+exitbutton_teleport.TextColor3 = Color3.new(1, 0, 0)
+exitbutton_teleport.TextScaled = true
+exitbutton_teleport.TextSize = 34
+exitbutton_teleport.TextWrapped = true
+
+FunctionsFrame.Name = "FunctionsFrame"
+FunctionsFrame.Parent = J129I43NDSFDKNFJ
+FunctionsFrame.Active = true
+FunctionsFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+FunctionsFrame.BorderSizePixel = 0
+FunctionsFrame.Position = UDim2.new(0.0287356414, 0, 0.546916902, 0)
+FunctionsFrame.Selectable = true
+FunctionsFrame.Size = UDim2.new(0, 494, 0, 377)
+
+BoxLabel_5.Name = "BoxLabel"
+BoxLabel_5.Parent = FunctionsFrame
+BoxLabel_5.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_5.BorderSizePixel = 0
+BoxLabel_5.Position = UDim2.new(0.548829019, 0, -0.076102525, 0)
+BoxLabel_5.Size = UDim2.new(0, 223, 0, 35)
+
+idk_5.Name = "idk"
+idk_5.Parent = BoxLabel_5
+idk_5.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_5.BorderSizePixel = 0
+idk_5.Position = UDim2.new(-0.141777828, 1, 0.366428494, 1)
+idk_5.Rotation = -50
+idk_5.Size = UDim2.new(0, 47, 0, 20)
+
+TextLabel_7.Parent = FunctionsFrame
+TextLabel_7.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_7.BackgroundTransparency = 1
+TextLabel_7.BorderSizePixel = 0
+TextLabel_7.Position = UDim2.new(0.531285167, 0, -0.0679035485, 0)
+TextLabel_7.Size = UDim2.new(0, 180, 0, 30)
+TextLabel_7.Font = Enum.Font.Highway
+TextLabel_7.Text = "Bloxton Hotels"
+TextLabel_7.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_7.TextScaled = true
+TextLabel_7.TextSize = 14
+TextLabel_7.TextWrapped = true
+
+Frame_11.Parent = FunctionsFrame
+Frame_11.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_11.BorderSizePixel = 0
+Frame_11.Position = UDim2.new(0, 0, 0.882690132, 0)
+Frame_11.Size = UDim2.new(0, 494, 0, 19)
+
+idk_6.Name = "idk"
+idk_6.Parent = Frame_11
+idk_6.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_6.BorderSizePixel = 0
+idk_6.Position = UDim2.new(0.401961595, 1, 1.83288574, 1)
+idk_6.Rotation = -50
+idk_6.Size = UDim2.new(0, 51, 0, 29)
+
+Frame_12.Parent = FunctionsFrame
+Frame_12.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_12.BorderSizePixel = 0
+Frame_12.Position = UDim2.new(-4.31199805e-05, 0, 0.954118729, 0)
+Frame_12.Size = UDim2.new(0, 494, 0, 9)
+
+Frame_13.Parent = FunctionsFrame
+Frame_13.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_13.BorderSizePixel = 0
+Frame_13.Position = UDim2.new(-4.31199805e-05, 0, 0.0387747623, 0)
+Frame_13.Size = UDim2.new(0, 494, 0, 20)
+
+Frame_14.Parent = FunctionsFrame
+Frame_14.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_14.BorderSizePixel = 0
+Frame_14.Position = UDim2.new(0, 0, 0.120785348, 0)
+Frame_14.Size = UDim2.new(0, 494, 0, 12)
+
+BoxLabel_6.Name = "BoxLabel"
+BoxLabel_6.Parent = FunctionsFrame
+BoxLabel_6.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_6.BorderSizePixel = 0
+BoxLabel_6.Position = UDim2.new(-4.31199805e-05, 0, 0.997971654, 0)
+BoxLabel_6.Size = UDim2.new(0, 219, 0, 35)
+
+Frame_15.Parent = BoxLabel_6
+Frame_15.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_15.BorderSizePixel = 0
+Frame_15.Position = UDim2.new(0.109909892, 0, -10.3400316, 0)
+Frame_15.Size = UDim2.new(0, 24, 0, 397)
+
+TextLabel_8.Parent = FunctionsFrame
+TextLabel_8.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_8.BackgroundTransparency = 1
+TextLabel_8.BorderSizePixel = 0
+TextLabel_8.Position = UDim2.new(0.107726313, 0, 0.995588541, 0)
+TextLabel_8.Size = UDim2.new(0, 166, 0, 30)
+TextLabel_8.Font = Enum.Font.Highway
+TextLabel_8.Text = "Verison 1.0"
+TextLabel_8.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_8.TextScaled = true
+TextLabel_8.TextSize = 14
+TextLabel_8.TextWrapped = true
+
+BTools.Name = "BTools"
+BTools.Parent = FunctionsFrame
+BTools.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+BTools.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+BTools.Position = UDim2.new(0.125629097, 0, 0.192213833, 0)
+BTools.Size = UDim2.new(0, 200, 0, 50)
+BTools.Font = Enum.Font.SourceSans
+BTools.Text = "BTools"
+BTools.TextColor3 = Color3.new(1, 1, 1)
+BTools.TextSize = 30
+BTools.TextWrapped = true
+
+Noclip.Name = "Noclip"
+Noclip.Parent = FunctionsFrame
+Noclip.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Noclip.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Noclip.Position = UDim2.new(0.568948925, 0, 0.192213833, 0)
+Noclip.Size = UDim2.new(0, 200, 0, 50)
+Noclip.Font = Enum.Font.SourceSans
+Noclip.Text = "Noclip (Press 'X')"
+Noclip.TextColor3 = Color3.new(1, 1, 1)
+Noclip.TextSize = 30
+Noclip.TextWrapped = true
+
+exitbutton_functions.Name = "exitbutton_functions"
+exitbutton_functions.Parent = FunctionsFrame
+exitbutton_functions.BackgroundColor3 = Color3.new(1, 1, 1)
+exitbutton_functions.BackgroundTransparency = 1
+exitbutton_functions.BorderSizePixel = 0
+exitbutton_functions.Position = UDim2.new(0.921946764, 0, -0.0679035857, 0)
+exitbutton_functions.Size = UDim2.new(0, 38, 0, 30)
+exitbutton_functions.Font = Enum.Font.SourceSans
+exitbutton_functions.Text = "X"
+exitbutton_functions.TextColor3 = Color3.new(1, 0, 0)
+exitbutton_functions.TextScaled = true
+exitbutton_functions.TextSize = 34
+exitbutton_functions.TextWrapped = true
+
+Give_Staff_Keycard.Name = "Give_Staff_Keycard"
+Give_Staff_Keycard.Parent = FunctionsFrame
+Give_Staff_Keycard.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Give_Staff_Keycard.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Give_Staff_Keycard.Position = UDim2.new(0.125629097, 0, 0.417081565, 0)
+Give_Staff_Keycard.Size = UDim2.new(0, 200, 0, 50)
+Give_Staff_Keycard.Font = Enum.Font.SourceSans
+Give_Staff_Keycard.Text = "Give Staff Keycard"
+Give_Staff_Keycard.TextColor3 = Color3.new(1, 1, 1)
+Give_Staff_Keycard.TextSize = 30
+Give_Staff_Keycard.TextWrapped = true
+
+TextLabel_9.Parent = FunctionsFrame
+TextLabel_9.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_9.BackgroundTransparency = 1
+TextLabel_9.BorderSizePixel = 0
+TextLabel_9.Position = UDim2.new(0, 0, -0.00176598283, 0)
+TextLabel_9.Size = UDim2.new(0, 345, 0, 15)
+TextLabel_9.Font = Enum.Font.Highway
+TextLabel_9.Text = "Scripting by King Singularity @ V3rm, UI By leonrock15978"
+TextLabel_9.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_9.TextSize = 14
+TextLabel_9.TextWrapped = true
+
+SetWalkSpeed.Name = "SetWalkSpeed"
+SetWalkSpeed.Parent = FunctionsFrame
+SetWalkSpeed.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+SetWalkSpeed.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+SetWalkSpeed.Position = UDim2.new(0.125506073, 0, 0.649867356, 0)
+SetWalkSpeed.Size = UDim2.new(0, 200, 0, 50)
+SetWalkSpeed.Font = Enum.Font.SourceSans
+SetWalkSpeed.PlaceholderText = "WalkSpeed"
+SetWalkSpeed.Text = ""
+SetWalkSpeed.TextColor3 = Color3.new(1, 1, 1)
+SetWalkSpeed.TextSize = 30
+
+SetJumpPower.Name = "SetJumpPower"
+SetJumpPower.Parent = FunctionsFrame
+SetJumpPower.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+SetJumpPower.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+SetJumpPower.Position = UDim2.new(0.568825901, 0, 0.649867356, 0)
+SetJumpPower.Size = UDim2.new(0, 200, 0, 50)
+SetJumpPower.Font = Enum.Font.SourceSans
+SetJumpPower.PlaceholderText = "JumpPower"
+SetJumpPower.Text = ""
+SetJumpPower.TextColor3 = Color3.new(1, 1, 1)
+SetJumpPower.TextSize = 30
+
+Give_Room.Name = "Give_Room"
+Give_Room.Parent = FunctionsFrame
+Give_Room.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+Give_Room.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+Give_Room.Position = UDim2.new(0.568825901, 0, 0.416445613, 0)
+Give_Room.Size = UDim2.new(0, 200, 0, 50)
+Give_Room.Font = Enum.Font.SourceSans
+Give_Room.PlaceholderText = "Give Room"
+Give_Room.Text = ""
+Give_Room.TextColor3 = Color3.new(1, 1, 1)
+Give_Room.TextSize = 30
+
+OpionFrame.Name = "OpionFrame"
+OpionFrame.Parent = J129I43NDSFDKNFJ
+OpionFrame.Active = true
+OpionFrame.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+OpionFrame.BorderSizePixel = 0
+OpionFrame.Position = UDim2.new(0.524630487, 0, 0.5, 0)
+OpionFrame.Selectable = true
+OpionFrame.Size = UDim2.new(0, 494, 0, 378)
+
+BoxLabel_7.Name = "BoxLabel"
+BoxLabel_7.Parent = OpionFrame
+BoxLabel_7.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_7.BorderSizePixel = 0
+BoxLabel_7.Position = UDim2.new(0.548829019, 0, -0.076102525, 0)
+BoxLabel_7.Size = UDim2.new(0, 223, 0, 35)
+
+idk_7.Name = "idk"
+idk_7.Parent = BoxLabel_7
+idk_7.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_7.BorderSizePixel = 0
+idk_7.Position = UDim2.new(-0.141777828, 1, 0.366428494, 1)
+idk_7.Rotation = -50
+idk_7.Size = UDim2.new(0, 47, 0, 20)
+
+TextLabel_10.Parent = OpionFrame
+TextLabel_10.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_10.BackgroundTransparency = 1
+TextLabel_10.BorderSizePixel = 0
+TextLabel_10.Position = UDim2.new(0.531285167, 0, -0.0679035485, 0)
+TextLabel_10.Size = UDim2.new(0, 180, 0, 30)
+TextLabel_10.Font = Enum.Font.Highway
+TextLabel_10.Text = "Bloxton Hotels"
+TextLabel_10.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_10.TextScaled = true
+TextLabel_10.TextSize = 14
+TextLabel_10.TextWrapped = true
+
+Frame_16.Parent = OpionFrame
+Frame_16.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_16.BorderSizePixel = 0
+Frame_16.Position = UDim2.new(0, 0, 0.882690132, 0)
+Frame_16.Size = UDim2.new(0, 494, 0, 19)
+
+idk_8.Name = "idk"
+idk_8.Parent = Frame_16
+idk_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+idk_8.BorderSizePixel = 0
+idk_8.Position = UDim2.new(0.401961595, 1, 1.83288574, 1)
+idk_8.Rotation = -50
+idk_8.Size = UDim2.new(0, 51, 0, 29)
+
+Frame_17.Parent = OpionFrame
+Frame_17.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_17.BorderSizePixel = 0
+Frame_17.Position = UDim2.new(-4.31199805e-05, 0, 0.954118669, 0)
+Frame_17.Size = UDim2.new(0, 482, 0, 9)
+
+Frame_18.Parent = OpionFrame
+Frame_18.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_18.BorderSizePixel = 0
+Frame_18.Position = UDim2.new(-4.31199805e-05, 0, 0.0387747623, 0)
+Frame_18.Size = UDim2.new(0, 494, 0, 20)
+
+Frame_19.Parent = OpionFrame
+Frame_19.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_19.BorderSizePixel = 0
+Frame_19.Position = UDim2.new(0, 0, 0.120785348, 0)
+Frame_19.Size = UDim2.new(0, 494, 0, 12)
+
+BoxLabel_8.Name = "BoxLabel"
+BoxLabel_8.Parent = OpionFrame
+BoxLabel_8.BackgroundColor3 = Color3.new(0.117647, 0.117647, 0.117647)
+BoxLabel_8.BorderSizePixel = 0
+BoxLabel_8.Position = UDim2.new(-4.31199805e-05, 0, 0.997971654, 0)
+BoxLabel_8.Size = UDim2.new(0, 219, 0, 35)
+
+Frame_20.Parent = BoxLabel_8
+Frame_20.BackgroundColor3 = Color3.new(0.333333, 0.666667, 1)
+Frame_20.BorderSizePixel = 0
+Frame_20.Position = UDim2.new(0.109909907, 0, -10.3593264, 0)
+Frame_20.Size = UDim2.new(0, 24, 0, 398)
+
+TextLabel_11.Parent = OpionFrame
+TextLabel_11.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_11.BackgroundTransparency = 1
+TextLabel_11.BorderSizePixel = 0
+TextLabel_11.Position = UDim2.new(0.107726313, 0, 0.995588541, 0)
+TextLabel_11.Size = UDim2.new(0, 166, 0, 30)
+TextLabel_11.Font = Enum.Font.Highway
+TextLabel_11.Text = "Verison 1.0"
+TextLabel_11.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_11.TextScaled = true
+TextLabel_11.TextSize = 14
+TextLabel_11.TextWrapped = true
+
+teleport.Name = "teleport"
+teleport.Parent = OpionFrame
+teleport.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+teleport.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+teleport.Position = UDim2.new(0.107410476, 0, 0.43295458, 0)
+teleport.Size = UDim2.new(0, 200, 0, 50)
+teleport.Font = Enum.Font.SourceSans
+teleport.Text = "Teleport"
+teleport.TextColor3 = Color3.new(1, 1, 1)
+teleport.TextSize = 30
+teleport.TextWrapped = true
+
+functions.Name = "functions"
+functions.Parent = OpionFrame
+functions.BackgroundColor3 = Color3.new(0.0784314, 0.0784314, 0.0784314)
+functions.BorderColor3 = Color3.new(0.333333, 0.333333, 1)
+functions.Position = UDim2.new(0.581094682, 0, 0.43295458, 0)
+functions.Size = UDim2.new(0, 200, 0, 50)
+functions.Font = Enum.Font.SourceSans
+functions.Text = "Functions"
+functions.TextColor3 = Color3.new(1, 1, 1)
+functions.TextSize = 30
+functions.TextWrapped = true
+
+TextLabel_12.Parent = OpionFrame
+TextLabel_12.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel_12.BackgroundTransparency = 1
+TextLabel_12.BorderSizePixel = 0
+TextLabel_12.Position = UDim2.new(0, 0, -0.00176598283, 0)
+TextLabel_12.Size = UDim2.new(0, 345, 0, 15)
+TextLabel_12.Font = Enum.Font.Highway
+TextLabel_12.Text = "Scripting by King Singularity @ V3rm, UI By leonrock15978"
+TextLabel_12.TextColor3 = Color3.new(1, 1, 1)
+TextLabel_12.TextSize = 14
+TextLabel_12.TextWrapped = true
+
+-- Draggables
+
+FunctionsFrame.Draggable = true
+LoginFrame.Draggable = true
+OpionFrame.Draggable = true
+TeleportFrame.Draggable = true
+
+local workspace = game:GetService("Workspace")
+local players = game:GetService("Players")
+local rs = game:GetService("ReplicatedStorage")
+local localplr = players.LocalPlayer
+local Mouse = localplr:GetMouse()
+local plr = tostring(localplr)
+local uis = game:GetService("UserInputService")
+
+-- Tweening and login
+
+local keys = {
+	[1] = "dv60xFNVi9",
+	[2] = "6OvRILnbs5",
+	[3] = "Q98COWGnSm",
+	[4] = "wiMlpwC0r7",
+	[5] = "qTPVEqbdYc",
+	[6] = "URLDiHEPdu",
+	[7] = "ffRsrYkFwN",
+	[8] = "sThwSQkQci",
+	[9] = "bW8YjzEEvv",
+	[10] = "1uW8lNYnxV",
+	[11] = "jawad05",
+	[12] = "BoomGamerKey"
+}
+
+local blacklisted = game:HttpGet('https://pastebin.com/raw/i7r7fZbJ', true)
+
+local tweenTime = 1
+local openPos1 = UDim2.new(0.4, 0, 0.3, 0)
+
+local closePos = UDim2.new(0, 0, -2, 0)
+local tweenAnimation = 'Quad'
+
+FunctionsFrame.Position = closePos
+LoginFrame.Position = closePos
+OpionFrame.Position = closePos
+TeleportFrame.Position = closePos
+
+LoginFrame:TweenPosition(openPos1, 'Out', tweenAnimation, tweenTime) -- Opens the GUI
+
+local function openGUI()
+	if string.match(blacklisted, Key.Text) then
+		game:GetService("Players").LocalPlayer:Kick("Blacklisted Scum")
+	end
+	
+	LoginFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+	OpionFrame:TweenPosition(openPos1, 'Out', tweenAnimation, tweenTime)
+	
+	for i = 1, 3 do
+		game.Workspace.StaffArea:Destroy() -- Remove staff areas
+	end
+
+	game.Workspace.CasinoArea:Destroy() -- Remove casino area
+end
+
+LoginBut.MouseButton1Down:connect(function()
+	local notwhitelisted = true
+	for i,v in pairs(keys) do
+		if tostring(Key.Text) == tostring(v) then
+			openGUI()
+			notwhitelisted = false
+			break
+		end
+	end
+	
+	-- Not whitelisted
+	if notwhitelisted then
+		LoginFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+		wait(tweenTime)
+		game.CoreGui["J129I43NDSFDKNFJ"]:Destroy() -- Not whitelisted
+	end
+end)
+
+teleport.MouseButton1Down:connect(function()
+	local framePos = OpionFrame.Position
+	OpionFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+	TeleportFrame:TweenPosition(framePos, 'Out', tweenAnimation, tweenTime)
+end)
+
+functions.MouseButton1Down:connect(function()
+	local framePos = OpionFrame.Position
+	OpionFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+	FunctionsFrame:TweenPosition(framePos, 'Out', tweenAnimation, tweenTime)
+end)
+
+exitbutton_teleport.MouseButton1Down:connect(function()
+	local framePos = TeleportFrame.Position
+	OpionFrame:TweenPosition(framePos, 'Out', tweenAnimation, tweenTime)
+	TeleportFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+end)
+
+exitbutton_functions.MouseButton1Down:connect(function()
+	local framePos = FunctionsFrame.Position
+	OpionFrame:TweenPosition(framePos, 'Out', tweenAnimation, tweenTime)
+	FunctionsFrame:TweenPosition(closePos, 'Out', tweenAnimation, tweenTime)
+end)
+
+-- Scripts
+
+Give_Staff_Keycard.MouseButton1Down:connect(function()
+	game:GetService("ReplicatedStorage").DoorEvents.DisplayDoor.OnClientEvent:Connect(function(door, Type)
+		local doorMotor = door.DoorMotor.Motor.Motor
+		local play = function(parent, soundId)
+			local sound = Instance.new("Sound")
+			sound.Parent = parent
+			sound.SoundId = "rbxassetid://" .. soundId
+			sound.MaxDistance = 30
+			sound:Play()
+			game:GetService("Debris"):AddItem(sound, 5)
+		end
+		local function openDoor()
+			door.DoorDetector.CanCollide = false
+			doorMotor.DesiredAngle = -1.5
+			play(door.DoorDetector, 2102896522)
+			wait(5)
+			play(door.DoorDetector, 2102897316)
+			doorMotor.DesiredAngle = 0
+			wait(1)
+			door.DoorDetector.CanCollide = true
+		end
+		openDoor()
+	end)
+end)
+
+Give_Room.FocusLost:connect(function(enterPressed)
+	if enterPressed then
+		if tonumber(Give_Room.Text) ~= nil then
+			local A_1 = Give_Room.Text
+			local Event = game:GetService("ReplicatedStorage").ReceptionEvents.RequestRoom
+			Event:FireServer(A_1)
+			
+			Give_Room.Text = ''
+		else -- Invalid number was typed
+		end
+	end
+end)
+
+SetWalkSpeed.FocusLost:connect(function(enterPressed)
+	if enterPressed then
+		if tonumber(SetWalkSpeed.Text) ~= nil then
+			game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = tonumber(SetWalkSpeed.Text)
+			
+			SetWalkSpeed.Text = ''
+		else -- Invalid number was typed
+		end
+	end
+end)
+
+SetJumpPower.FocusLost:connect(function(enterPressed)
+	if enterPressed then
+		if tonumber(SetJumpPower.Text) ~= nil then
+			game.Players.LocalPlayer.Character.Humanoid.JumpPower = tonumber(SetJumpPower.Text)
+			
+			SetJumpPower.Text = ''
+		else -- Invalid number was typed
+		end
+	end
+end)
+
+BTools.MouseButton1Down:connect(function()
+local StarterGui = game:GetService('StarterGui')
+
+StarterGui:SetCoreGuiEnabled(Enum.CoreGuiType.Backpack, true)
+for index, child in pairs(workspace:GetChildren()) do
+   if child.ClassName == "Part" then
+       child.Locked = false
+   end
+   if child.ClassName == "MeshPart" then
+       child.Locked = false
+   end
+   if child.ClassName == "UnionOperation" then
+       child.Locked = false
+   end
+   if child.ClassName == "Model" then
+       for index, chil in pairs(child:GetChildren()) do
+           if chil.ClassName == "Part" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "MeshPart" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "UnionOperation" then
+               chil.Locked = false
+           end
+           if chil.ClassName == "Model" then
+               for index, childe in pairs(chil:GetChildren()) do
+                   if childe.ClassName == "Part" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "MeshPart" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "UnionOperation" then
+                       childe.Locked = false
+                   end
+                   if childe.ClassName == "Model" then
+                       for index, childeo in pairs(childe:GetChildren()) do
+                           if childeo.ClassName == "Part" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "MeshPart" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "UnionOperation" then
+                               childeo.Locked = false
+                           end
+                           if childeo.ClassName == "Model" then
+                           end
+                       end
+                   end
+               end
+           end
+       end
+   end
+end
+c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Hammer
+c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Clone
+c = Instance.new("HopperBin", game.Players.LocalPlayer.Backpack)
+c.BinType = Enum.BinType.Grab
+end)
+
+Noclip.MouseButton1Down:connect(function()
+	local noclipplayer = game:GetService("Players").LocalPlayer
+	
+	local donoclip = false
+	local noclip = false
+	
+	function x_noclip(key)
+		if key == "x" or key == "X" then
+			if noclip == false then
+				donoclip = true
+				
+				noclip = true
+			elseif noclip == true then
+				donoclip = false
+				
+				noclip = false
+			end
+		end
+	end
+	
+	Mouse.KeyDown:connect(x_noclip)
+	
+	game:GetService("Players").LocalPlayer.Character.UpperTorso.Touched:connect(function(obj)
+		if obj ~= workspace.Terrain then
+			if donoclip == true then
+				obj.CanCollide = false
+			else
+				obj.CanCollide = true
+			end
+		end
+	end)
+end)
+
+-- Teleports
+
+local function teleport(location)
+	local plr = localplr.Character
+	if plr then
+		plr:MoveTo(location)
+	end
+end
+
+local locations = {
+	StaffRoom = Vector3.new(153.442474, 43.2413521, 142.157791),
+	Bar = Vector3.new(52.4236794, 43.241375, 40.2516823),
+	Arcade = Vector3.new(218.148987, 43.241375, 151.575607),
+	MerchStore = Vector3.new(-5.43668652, 43.3413734, -106.820793),
+	WaterSlides = Vector3.new(289.834351, 59.9637642, 37.8807907),
+	Gym = Vector3.new(49.5403252, 43.241375, 166.865326),
+}
+
+Staff_Room.MouseButton1Down:connect(function()
+	teleport(locations.StaffRoom)
+end)
+
+Bar.MouseButton1Down:connect(function()
+	teleport(locations.Bar)
+end)
+
+Arcade.MouseButton1Down:connect(function()
+	teleport(locations.Arcade)
+end)
+
+Merch_Store.MouseButton1Down:connect(function()
+	teleport(locations.MerchStore)
+end)
+
+WaterSlides.MouseButton1Down:connect(function()
+	teleport(locations.WaterSlides)
+end)
+
+Gym.MouseButton1Down:connect(function()
+	teleport(locations.Gym)
+end)

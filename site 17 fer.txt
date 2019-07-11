@@ -1,0 +1,307 @@
+--credits to T A Z#2803 and ``#4934 for making this GUI.
+
+--this gui was released on v3rmillion.net
+local ScreenGui = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local TouchKill = Instance.new("TextButton")
+local X = Instance.new("TextButton")
+local scripts = Instance.new("Frame")
+local ControlRoom = Instance.new("TextButton")
+local HideName = Instance.new("TextButton")
+local Shattervast = Instance.new("TextButton")
+local Invisibility = Instance.new("TextButton")
+local TextLabel = Instance.new("TextLabel")
+local Open = Instance.new("Frame")
+local OpenB = Instance.new("TextButton")
+--Properties:
+ScreenGui.Parent = game.CoreGui
+
+Main.Name = "Main"
+Main.Parent = ScreenGui
+Main.BackgroundColor3 = Color3.new(0, 0, 0)
+Main.BackgroundTransparency = 0.5
+Main.BorderSizePixel = 5
+Main.Position = UDim2.new(0.385948896, 0, 0.305114627, 0)
+Main.Size = UDim2.new(0, 303, 0, 235)
+
+TouchKill.Name = "TouchKill"
+TouchKill.Parent = Main
+TouchKill.BackgroundColor3 = Color3.new(0, 0, 0)
+TouchKill.BackgroundTransparency = 0.5
+TouchKill.BorderColor3 = Color3.new(1, 1, 1)
+TouchKill.BorderSizePixel = 0
+TouchKill.Position = UDim2.new(0.539017498, 0, 0.196425483, 0)
+TouchKill.Size = UDim2.new(0, 126, 0, 50)
+TouchKill.Font = Enum.Font.GothamBold
+TouchKill.Text = "Touch Kill"
+TouchKill.TextColor3 = Color3.new(1, 1, 1)
+TouchKill.TextSize = 20
+
+X.Name = "X"
+X.Parent = Main
+X.BackgroundColor3 = Color3.new(1, 1, 1)
+X.BackgroundTransparency = 1
+X.Size = UDim2.new(0, 28, 0, 27)
+X.Font = Enum.Font.GothamBold
+X.Text = "X"
+X.TextColor3 = Color3.new(1, 1, 1)
+X.TextSize = 20
+
+scripts.Name = "scripts"
+scripts.Parent = Main
+scripts.BackgroundColor3 = Color3.new(1, 1, 1)
+scripts.Size = UDim2.new(0, 100, 0, 100)
+scripts.Visible = false
+
+ControlRoom.Name = "Control Room"
+ControlRoom.Parent = Main
+ControlRoom.BackgroundColor3 = Color3.new(0, 0, 0)
+ControlRoom.BackgroundTransparency = 0.5
+ControlRoom.BorderColor3 = Color3.new(1, 1, 1)
+ControlRoom.BorderSizePixel = 0
+ControlRoom.Position = UDim2.new(0.53283155, 0, 0.438978702, 0)
+ControlRoom.Size = UDim2.new(0, 126, 0, 50)
+ControlRoom.Font = Enum.Font.GothamBold
+ControlRoom.Text = "Control Room"
+ControlRoom.TextColor3 = Color3.new(1, 1, 1)
+ControlRoom.TextSize = 20
+
+HideName.Name = "Hide Name"
+HideName.Parent = Main
+HideName.BackgroundColor3 = Color3.new(0, 0, 0)
+HideName.BackgroundTransparency = 0.5
+HideName.BorderColor3 = Color3.new(1, 1, 1)
+HideName.BorderSizePixel = 0
+HideName.Position = UDim2.new(0.291907459, 0, 0.69523406, 0)
+HideName.Size = UDim2.new(0, 126, 0, 50)
+HideName.Font = Enum.Font.GothamBold
+HideName.Text = "Hide Name"
+HideName.TextColor3 = Color3.new(1, 1, 1)
+HideName.TextSize = 20
+
+Shattervast.Name = "Shattervast"
+Shattervast.Parent = Main
+Shattervast.BackgroundColor3 = Color3.new(0, 0, 0)
+Shattervast.BackgroundTransparency = 0.5
+Shattervast.BorderColor3 = Color3.new(1, 1, 1)
+Shattervast.BorderSizePixel = 0
+Shattervast.Position = UDim2.new(0.057584025, 0, 0.435574383, 0)
+Shattervast.Size = UDim2.new(0, 126, 0, 50)
+Shattervast.Font = Enum.Font.GothamBold
+Shattervast.Text = "Shattervast"
+Shattervast.TextColor3 = Color3.new(1, 1, 1)
+Shattervast.TextSize = 20
+
+Invisibility.Name = "Invisibility"
+Invisibility.Parent = Main
+Invisibility.BackgroundColor3 = Color3.new(0, 0, 0)
+Invisibility.BackgroundTransparency = 0.5
+Invisibility.BorderColor3 = Color3.new(1, 1, 1)
+Invisibility.BorderSizePixel = 0
+Invisibility.Position = UDim2.new(0.057584025, 0, 0.193021193, 0)
+Invisibility.Size = UDim2.new(0, 126, 0, 50)
+Invisibility.Font = Enum.Font.GothamBold
+Invisibility.Text = "Inivsibility"
+Invisibility.TextColor3 = Color3.new(1, 1, 1)
+Invisibility.TextSize = 20
+
+TextLabel.Parent = Main
+TextLabel.BackgroundColor3 = Color3.new(1, 1, 1)
+TextLabel.BackgroundTransparency = 1
+TextLabel.Position = UDim2.new(0.231023103, 0, -0.0212765951, 0)
+TextLabel.Size = UDim2.new(0, 163, 0, 50)
+TextLabel.Font = Enum.Font.SciFi
+TextLabel.Text = "Site Fucker"
+TextLabel.TextColor3 = Color3.new(1, 1, 1)
+TextLabel.TextSize = 20
+
+Open.Name = "Open"
+Open.Parent = ScreenGui
+Open.BackgroundColor3 = Color3.new(1, 1, 1)
+Open.BackgroundTransparency = 1
+Open.Position = UDim2.new(0.466240883, 0, 0, 0)
+Open.Size = UDim2.new(0, 100, 0, 39)
+Open.Visible = false
+
+OpenB.Name = "OpenB"
+OpenB.Parent = Open
+OpenB.BackgroundColor3 = Color3.new(0, 0, 0)
+OpenB.BackgroundTransparency = 0.20000000298023
+OpenB.Position = UDim2.new(-0.00335037708, 0, -0.13708514, 0)
+OpenB.Size = UDim2.new(0, 99, 0, 42)
+OpenB.Font = Enum.Font.GothamBlack
+OpenB.Text = "Open"
+OpenB.TextColor3 = Color3.new(1, 1, 1)
+OpenB.TextSize = 20
+-- Scripts:
+function SCRIPT_FBUT68_FAKESCRIPT() -- TouchKill.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = TouchKill
+local btn = script.Parent
+btn.MouseButton1Click:Connect(function()
+local LocalPlayer = game:GetService("Players").LocalPlayer
+local target = game.Players.LocalPlayer
+local torsoname = "Torso"
+if LocalPlayer.Character:FindFirstChild("Humanoid").RigType == Enum.HumanoidRigType.R15 then
+   torsoname = "UpperTorso"
+end
+if target.Character ~= nil then
+   local savepos = LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame
+   LocalPlayer.Character:FindFirstChild(torsoname).Anchored = true
+   local tool = Instance.new("Tool", LocalPlayer.Backpack)
+   local hat = LocalPlayer.Character:FindFirstChildOfClass("Accessory")
+   local hathandle = hat.Handle
+   hathandle.Parent = tool
+   hathandle.Massless = true
+   tool.GripPos = Vector3.new(0, 9e99, 0)
+   tool.Parent = LocalPlayer.Character
+   repeat wait() until LocalPlayer.Character:FindFirstChildOfClass("Tool") ~= nil
+   tool.Grip = CFrame.new(Vector3.new(0, 0, 0))
+   LocalPlayer.Character:FindFirstChild(torsoname).Anchored = false
+   repeat
+       LocalPlayer.Character:FindFirstChild("HumanoidRootPart").CFrame = target.Character:FindFirstChild("HumanoidRootPart").CFrame
+       wait()
+   until target.Character == nil 
+LocalPlayer.Character:FindFirstChild("Humanoid"):UnequipTools()
+   hathandle.Parent = hat
+   hathandle.Massless = false
+   tool:Destroy()
+end
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_FBUT68_FAKESCRIPT))
+function SCRIPT_GPIX78_FAKESCRIPT() -- X.close script 
+local script = Instance.new('LocalScript')
+script.Parent = X
+local frame = script.Parent.Parent
+local frame2 = script.Parent.Parent.Parent.Open
+script.Parent.MouseButton1Click:Connect(function()
+frame.Visible = false
+frame2.Visible = true
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_GPIX78_FAKESCRIPT))
+function SCRIPT_SCTY70_FAKESCRIPT() -- scripts.round 
+local script = Instance.new('LocalScript')
+script.Parent = scripts
+local frame = script.Parent.Parent
+frame.Style = Enum.FrameStyle.RobloxRound
+
+end
+coroutine.resume(coroutine.create(SCRIPT_SCTY70_FAKESCRIPT))
+function SCRIPT_ZAAS66_FAKESCRIPT() -- scripts.x anim 
+local script = Instance.new('LocalScript')
+script.Parent = scripts
+local button = script.Parent.Parent.X
+button.MouseEnter:connect(function(Anim)
+button.TextSize = 30
+end)
+
+button.MouseLeave:connect(function(Anim2)
+button.TextSize = 18
+end)
+
+
+end
+coroutine.resume(coroutine.create(SCRIPT_ZAAS66_FAKESCRIPT))
+function SCRIPT_PPQK76_FAKESCRIPT() -- ControlRoom.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = ControlRoom
+local btn = script.Parent
+btn.MouseButton1Click:Connect(function()
+local player = game:GetService("Players").LocalPlayer
+player.Character.HumanoidRootPart.CFrame = CFrame.new(-316.290619, 4.60035276, -457.796326)
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_PPQK76_FAKESCRIPT))
+function SCRIPT_JGZL81_FAKESCRIPT() -- HideName.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = HideName
+local btn = script.Parent
+btn.MouseButton1Click:Connect(function()
+local player = game:GetService("Players").LocalPlayer
+player.Character.Head.Rank:remove()
+
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_JGZL81_FAKESCRIPT))
+function SCRIPT_PCCP90_FAKESCRIPT() -- Shattervast.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = Shattervast
+local btn = script.Parent
+btn.MouseButton1Click:Connect(function()
+loadstring(game:HttpGet("https://pastebin.com/raw/ghqrhtDB", true))()
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_PCCP90_FAKESCRIPT))
+function SCRIPT_KOEI70_FAKESCRIPT() -- Invisibility.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = Invisibility
+local btn = script.Parent
+btn.MouseButton1Click:Connect(function()
+local player = game.Players.LocalPlayer
+position     = player.Character.HumanoidRootPart.Position
+wait(0.2)
+player.Character:MoveTo(position + Vector3.new(0, 99999999, 0))
+wait(0.2)
+humanoidrootpart = player.Character.HumanoidRootPart:clone()
+wait(0.2)
+player.Character.HumanoidRootPart:Destroy()
+humanoidrootpart.Parent = player.Character
+player.Character:MoveTo(position)
+wait()
+-- Remove this if you want to see yourself (others still won't see you)
+game.Players.LocalPlayer.Character.Torso.Transparency = 1
+game.Players.LocalPlayer.Character.Head.Transparency  = 1
+game.Players.LocalPlayer.Character["Left Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Arm"].Transparency = 1
+game.Players.LocalPlayer.Character["Left Leg"].Transparency = 1
+game.Players.LocalPlayer.Character["Right Leg"].Transparency = 1
+game.Players.LocalPlayer.Character.Humanoid:RemoveAccessories()
+game.Players.LocalPlayer.Character.Head.face:Remove()
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_KOEI70_FAKESCRIPT))
+function SCRIPT_DGJY81_FAKESCRIPT() -- ScreenGui.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = ScreenGui
+local frame = script.Parent.Main
+frame.Draggable = true
+frame.Active = true
+frame.Selectable = true
+
+
+end
+coroutine.resume(coroutine.create(SCRIPT_DGJY81_FAKESCRIPT))
+function SCRIPT_VBJV67_FAKESCRIPT() -- OpenB.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = OpenB
+local frame = script.Parent.Parent.Parent.Main
+script.Parent.MouseButton1Click:Connect(function()
+frame.Visible = true
+script.Parent.Parent.Visible = false
+end)
+
+end
+coroutine.resume(coroutine.create(SCRIPT_VBJV67_FAKESCRIPT))
+function SCRIPT_STWY85_FAKESCRIPT() -- OpenB.LocalScript 
+local script = Instance.new('LocalScript')
+script.Parent = OpenB
+local button = script.Parent.Parent.OpenB
+button.MouseEnter:connect(function(Anim)
+button.TextSize = 25
+end)
+
+button.MouseLeave:connect(function(Anim2)
+button.TextSize = 18
+end)
+
+
+end
+coroutine.resume(coroutine.create(SCRIPT_STWY85_FAKESCRIPT))

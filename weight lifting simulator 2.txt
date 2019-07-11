@@ -1,0 +1,9 @@
+-- Change these into whatever number you want, there is no maximum. You also don't need to have the weights equipped anymore.
+local strength = 100000000000
+local durability = 5000000
+local speed = 1
+local weight = 0.01
+local height = 0.005
+local kills = 100000
+
+game:GetService("ReplicatedStorage").updateStats:FireServer(true, strength, durability, speed, weight, height, kills)
